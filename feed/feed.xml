@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>YJD𝕏</title>
 	<subtitle>The homogenous customised blog of Yeshua D&#39;Costa.</subtitle>
-	<link href="https://yjdx.netlify.app/eleventy-base-blog/feed/feed.xml" rel="self"/>
-	<link href="https://yjdx.netlify.app/eleventy-base-blog/"/>
+	<link href="https://yjdx.netlify.app/yjdx/feed/feed.xml" rel="self"/>
+	<link href="https://yjdx.netlify.app/yjdx/"/>
 	<updated>2023-12-04T00:00:00Z</updated>
 	<id>https://yjdx.netlify.app/</id>
 	<author>
@@ -13,10 +13,10 @@
 	
 	<entry>
 		<title>Poem On Prayer</title>
-		<link href="https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/"/>
+		<link href="https://yjdx.netlify.app/yjdx/blog/prayer/"/>
 		<updated>2023-12-04T00:00:00Z</updated>
-		<id>https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/</id>
-		<content type="html">&lt;h3 id=&quot;poem-on-prayer&quot; tabindex=&quot;-1&quot;&gt;Poem On Prayer &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+		<id>https://yjdx.netlify.app/yjdx/blog/prayer/</id>
+		<content type="html">&lt;h3 id=&quot;poem-on-prayer&quot; tabindex=&quot;-1&quot;&gt;Poem On Prayer &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/yjdx/blog/prayer/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Prayer&lt;/strong&gt;, What a &lt;em&gt;beautiful&lt;/em&gt; thing&lt;br&gt;
 Raid the &lt;strong&gt;devil&lt;/strong&gt;, &lt;em&gt;victory&lt;/em&gt; you shall bring;&lt;br&gt;
 &lt;em&gt;Abandon&lt;/em&gt; your &lt;strong&gt;wordly addictions&lt;/strong&gt;&lt;br&gt;
@@ -32,10 +32,10 @@ Certainly &lt;strong&gt;not&lt;/strong&gt; the spirit of a &lt;em&gt;brat.&lt;/e
 	
 	<entry>
 		<title>The Impossible Conjecture</title>
-		<link href="https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/"/>
+		<link href="https://yjdx.netlify.app/yjdx/blog/collatzConjecture/"/>
 		<updated>2023-10-29T00:00:00Z</updated>
-		<id>https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/</id>
-		<content type="html">&lt;h3 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+		<id>https://yjdx.netlify.app/yjdx/blog/collatzConjecture/</id>
+		<content type="html">&lt;h3 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/yjdx/blog/collatzConjecture/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The Collatz Conjecture is an unsolved problem in mathematics. This conjecture is named after the mathematician Lothar Collatz, who introduced the idea in 1937. The conjecture also known as Syrucuse conjecture or problem.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Take any positive integer n. If n is even then divide it by 2, else do &amp;quot;triple plus one&amp;quot; and get 3n+1. The conjecture is that for all numbers, this process converges to &lt;strong&gt;one&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
