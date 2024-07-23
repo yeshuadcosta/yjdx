@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>YJD𝕏</title>
+	<subtitle>The homogenous customised blog of Yeshua D&#39;Costa.</subtitle>
+	<link href="https://yjdx.netlify.app/eleventy-base-blog/feed/feed.xml" rel="self"/>
+	<link href="https://yjdx.netlify.app/eleventy-base-blog/"/>
+	<updated>2023-12-04T00:00:00Z</updated>
+	<id>https://yjdx.netlify.app/</id>
+	<author>
+		<name>Yeshua D&#39;Costa</name>
+		<email>yeshuadcosta@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Poem On Prayer</title>
+		<link href="https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/"/>
+		<updated>2023-12-04T00:00:00Z</updated>
+		<id>https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/</id>
+		<content type="html">&lt;h3 id=&quot;poem-on-prayer&quot; tabindex=&quot;-1&quot;&gt;Poem On Prayer &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Prayer&lt;/strong&gt;, What a &lt;em&gt;beautiful&lt;/em&gt; thing&lt;br&gt;
+Raid the &lt;strong&gt;devil&lt;/strong&gt;, &lt;em&gt;victory&lt;/em&gt; you shall bring;&lt;br&gt;
+&lt;em&gt;Abandon&lt;/em&gt; your &lt;strong&gt;wordly addictions&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Yearn&lt;/em&gt; for &lt;strong&gt;God&lt;/strong&gt;,&lt;br&gt;
+He will &lt;em&gt;eradicate&lt;/em&gt; your &lt;strong&gt;afflictions&lt;/strong&gt;;&lt;br&gt;
+&lt;em&gt;Raise&lt;/em&gt; up your problems,&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;Prayer helps with that&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Faithfulness&lt;/strong&gt;, it &lt;em&gt;instills&lt;/em&gt; in you,&lt;br&gt;
+Certainly &lt;strong&gt;not&lt;/strong&gt; the spirit of a &lt;em&gt;brat.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;~Yeshua D&#39;Costa&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Impossible Conjecture</title>
+		<link href="https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/"/>
+		<updated>2023-10-29T00:00:00Z</updated>
+		<id>https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/</id>
+		<content type="html">&lt;h3 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The Collatz Conjecture is an unsolved problem in mathematics. This conjecture is named after the mathematician Lothar Collatz, who introduced the idea in 1937. The conjecture also known as Syrucuse conjecture or problem.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Take any positive integer n. If n is even then divide it by 2, else do &amp;quot;triple plus one&amp;quot; and get 3n+1. The conjecture is that for all numbers, this process converges to &lt;strong&gt;one&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Paul Erdős said about the Collatz conjecture, &amp;quot;Mathematics may not be ready for such problems.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jeffrey Lagarias stated that the Collatz conjecture &amp;quot;is an extraordinarily difficult problem, completely out of reach of present day mathematics.&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Implementation Of The Collatz Conjecture in C++&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class=&quot;language-c&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token directive-hash&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;
+
+using namespace std&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; numeral&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+	cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Enter the Numeral: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	cin &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; numeral&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; MAX_ITERATIONS&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; count&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Enter the number of iterations of the sequence: &quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    cin &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt; MAX_ITERATIONS&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count&lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;MAX_ITERATIONS&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;numeral&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// If the numeral is even, divide it by 2&lt;/span&gt;
+            numeral &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;numeral&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/2: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; numeral &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;numeral&lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// If the numeral is odd, multiply it by 3 and add 1&lt;/span&gt;
+            numeral &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;numeral&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;3x+1: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; numeral &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;token comment&quot;&gt;// The following code restricts the number of repetitions of the sequence `4, 2, 1`&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;numeral &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;The sequence `4, 2, 1` has been repeated &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; MAX_ITERATIONS &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot; times!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The constant &lt;code&gt;MAX_ITERATIONS&lt;/code&gt; controls the maximum number of times, the sequence &lt;code&gt;4, 2, 1&lt;/code&gt; is repeated while the variable &lt;code&gt;count&lt;/code&gt; stores the number of occurences of the number &lt;code&gt;1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the number is &lt;em&gt;even&lt;/em&gt;, it is divided by &lt;code&gt;2&lt;/code&gt;, its divisibility by &lt;code&gt;2&lt;/code&gt; is proven by &lt;code&gt;numeral%2&lt;/code&gt;, which in this case, should be equal to zero.&lt;/p&gt;
+&lt;p&gt;If the number is &lt;em&gt;odd&lt;/em&gt;, it is multiplied by &lt;code&gt;3&lt;/code&gt; and &#39;1&#39; is added to the product, its divisibility by &lt;code&gt;2&lt;/code&gt; in this case &lt;code&gt;numeral%2&lt;/code&gt;, should not be equal to zero and should provide the remainder of the number on division by &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Output of the C++ Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For the following example, the number &lt;code&gt;10&lt;/code&gt; has been used&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;Enter the Numeral: &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+Enter the number of iterations of the sequence: &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;5.0&lt;/span&gt;
+3x+1: &lt;span class=&quot;token number&quot;&gt;16.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;8.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;4.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;
+3x+1: &lt;span class=&quot;token number&quot;&gt;4.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;
+3x+1: &lt;span class=&quot;token number&quot;&gt;4.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;
+3x+1: &lt;span class=&quot;token number&quot;&gt;4.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;2.0&lt;/span&gt;
+/2: &lt;span class=&quot;token number&quot;&gt;1.0&lt;/span&gt;
+The sequence &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt; has been repeated &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; times.&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/blog/collatzConjecture/</loc>
+		<lastmod>2023-10-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/blog/prayer/</loc>
+		<lastmod>2023-12-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/about/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/blog/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/tags/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/tags/mathematics/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/tags/conjectures/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/tags/catholicism/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://yjdx.netlify.app/eleventy-base-blog/tags/prayer/</loc>
+		<lastmod>2024-07-23</lastmod>
+	</url>
+</urlset>
