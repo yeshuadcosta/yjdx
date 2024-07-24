@@ -4,12 +4,179 @@
 		<link rel="shortcut icon" type="image/jpg" href="/yjdx/img/favicon.png">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “mathematics”</title>
-		<meta name="description" content="The homogenous customised blog of Yeshua D&#39;Costa.">
+		<title>The Impossible Conjecture</title>
+		<meta name="description" content="This is the very first post">
 		<link rel="alternate" href="/yjdx/feed/feed.xml" type="application/atom+xml" title="YJD𝕏">
 		<link rel="alternate" href="/yjdx/feed/feed.json" type="application/json" title="YJD𝕏">
 		
-		<style>.postlist { counter-reset: start-from 2 }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -1261,31 +1428,93 @@ h2 + .header-anchor {
 		</header>
 
 		<main id="skip">
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
+			
+<h1>The Impossible Conjecture</h1>
 
-<h1>Tagged “mathematics”</h1>
+<ul class="post-metadata">
+	<li><time datetime="2023-10-29">29 October 2023</time></li>
+	<li><a href="/yjdx/tags/mathematics/" class="post-tag">mathematics</a>, </li>
+	<li><a href="/yjdx/tags/conjectures/" class="post-tag">conjectures</a></li>
+</ul>
 
+<h3 id="introduction" tabindex="-1">Introduction <a class="header-anchor" href="#introduction">#</a></h3>
+<p>The Collatz Conjecture is an unsolved problem in mathematics. This conjecture is named after the mathematician Lothar Collatz, who introduced the idea in 1937. The conjecture also known as Syrucuse conjecture or problem.</p>
+<p><em>Take any positive integer n. If n is even then divide it by 2, else do &quot;triple plus one&quot; and get 3n+1. The conjecture is that for all numbers, this process converges to <strong>one</strong>.</em></p>
+<blockquote>
+<p>Paul Erdős said about the Collatz conjecture, &quot;Mathematics may not be ready for such problems.&quot;</p>
+</blockquote>
+<blockquote>
+<p>Jeffrey Lagarias stated that the Collatz conjecture &quot;is an extraordinarily difficult problem, completely out of reach of present day mathematics.&quot;</p>
+</blockquote>
+<p><strong>Implementation Of The Collatz Conjecture in C++</strong></p>
+<pre class="language-c" tabindex="0"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 
+using namespace std<span class="token punctuation">;</span>
 
-<ol reversed="" class="postlist">
+<span class="token keyword">int</span> <span class="token function">main</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">int</span> numeral<span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 
-	<li class="postlist-item">
-		<a href="/yjdx/blog/post1/" class="postlist-link">The Impossible Conjecture</a>
-		<time class="postlist-date" datetime="2023-10-29">October 2023</time>
-	</li>
+	cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter the Numeral: "</span><span class="token punctuation">;</span>
+	cin <span class="token operator">>></span> numeral<span class="token punctuation">;</span>
 
-</ol>
+    <span class="token keyword">int</span> MAX_ITERATIONS<span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">int</span> count<span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Enter the number of iterations of the sequence: "</span><span class="token punctuation">;</span>
+    cin <span class="token operator">>></span> MAX_ITERATIONS<span class="token punctuation">;</span>
 
-<p>See <a href="/yjdx/tags/">all tags</a>.</p>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span>count<span class="token operator">&lt;=</span>MAX_ITERATIONS<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>numeral<span class="token operator">%</span><span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// If the numeral is even, divide it by 2</span>
+            numeral <span class="token operator">=</span> <span class="token punctuation">(</span>numeral<span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">"/2: "</span> <span class="token operator">&lt;&lt;</span> numeral <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>numeral<span class="token operator">%</span><span class="token number">2</span><span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// If the numeral is odd, multiply it by 3 and add 1</span>
+            numeral <span class="token operator">=</span> <span class="token punctuation">(</span>numeral<span class="token operator">*</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>
+            cout <span class="token operator">&lt;&lt;</span> <span class="token string">"3x+1: "</span> <span class="token operator">&lt;&lt;</span> numeral <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
 
-<!-- Stop deleting -->
+        <span class="token comment">// The following code restricts the number of repetitions of the sequence `4, 2, 1`</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>numeral <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token operator">++</span>count<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"The sequence `4, 2, 1` has been repeated "</span> <span class="token operator">&lt;&lt;</span> MAX_ITERATIONS <span class="token operator">&lt;&lt;</span> <span class="token string">" times!"</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>The constant <code>MAX_ITERATIONS</code> controls the maximum number of times, the sequence <code>4, 2, 1</code> is repeated while the variable <code>count</code> stores the number of occurences of the number <code>1</code></p>
+<p>If the number is <em>even</em>, it is divided by <code>2</code>, its divisibility by <code>2</code> is proven by <code>numeral%2</code>, which in this case, should be equal to zero.</p>
+<p>If the number is <em>odd</em>, it is multiplied by <code>3</code> and '1' is added to the product, its divisibility by <code>2</code> in this case <code>numeral%2</code>, should not be equal to zero and should provide the remainder of the number on division by <code>2</code></p>
+<p><strong>Output of the C++ Code</strong></p>
+<p>For the following example, the number <code>10</code> has been used</p>
+<pre class="language-bash" tabindex="0"><code class="language-bash">Enter the Numeral: <span class="token number">10</span>
+Enter the number of iterations of the sequence: <span class="token number">3</span>
+/2: <span class="token number">5.0</span>
+3x+1: <span class="token number">16.0</span>
+/2: <span class="token number">8.0</span>
+/2: <span class="token number">4.0</span>
+/2: <span class="token number">2.0</span>
+/2: <span class="token number">1.0</span>
+3x+1: <span class="token number">4.0</span>
+/2: <span class="token number">2.0</span>
+/2: <span class="token number">1.0</span>
+3x+1: <span class="token number">4.0</span>
+/2: <span class="token number">2.0</span>
+/2: <span class="token number">1.0</span>
+3x+1: <span class="token number">4.0</span>
+/2: <span class="token number">2.0</span>
+/2: <span class="token number">1.0</span>
+The sequence <span class="token variable"><span class="token variable">`</span><span class="token number">4</span>, <span class="token number">2</span>, <span class="token number">1</span><span class="token variable">`</span></span> has been repeated <span class="token number">3</span> times.</code></pre>
+
+<ul class="links-nextprev"><li>Next Post: <a href="/yjdx/blog/post2/">Poem On Prayer</a></li>
+</ul>
 
 		</main>
 
 		<footer>
 			<a href="/yjdx/" style="font-size: 1em;" class="home-link">YJD𝕏 by Yeshua D'Costa, 2023-2024</a><br>
 		</footer>
-		<!-- Current page: /yjdx/tags/mathematics/ -->
+		<!-- Current page: /yjdx/blog/post1/ -->
 	</body>
 </html>
