@@ -4,12 +4,31 @@
 	<subtitle>The homogenous customised blog of Yeshua D&#39;Costa.</subtitle>
 	<link href="https://yjdx.netlify.app/yjdx/feed/feed.xml" rel="self"/>
 	<link href="https://yjdx.netlify.app/yjdx/"/>
-	<updated>2024-07-24T00:00:00Z</updated>
+	<updated>2024-07-26T00:00:00Z</updated>
 	<id>https://yjdx.netlify.app/</id>
 	<author>
 		<name>Yeshua D&#39;Costa</name>
 		<email>yeshuadcosta@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>It&#39;s Y2K all over again</title>
+		<link href="https://yjdx.netlify.app/yjdx/blog/post4/"/>
+		<updated>2024-07-26T00:00:00Z</updated>
+		<id>https://yjdx.netlify.app/yjdx/blog/post4/</id>
+		<content type="html">&lt;h2 id=&quot;the-modern-iteration-of-y2k&quot; tabindex=&quot;-1&quot;&gt;The Modern Iteration of Y2K &lt;a class=&quot;header-anchor&quot; href=&quot;https://yjdx.netlify.app/yjdx/blog/post4/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On 19 July, 2024, about 8.5 million computers around the globe running Microsoft Windows gave a very specific error message. Every single one of these machines contained higly sensitive information. This error affected Banks, Airline Companies and Government and Healthcare Departments.&lt;/p&gt;
+&lt;img src=&quot;https://yjdx.netlify.app/yjdx/img/post4/winerror.jpg&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;The error was traced to a specialised Antivirus Program - Crowdstrike Falcon, which operates at the kernel level to prevent virus and malware attacks from spreading in a computer by terminating it before the attack even begins. A single bug in Crowdstrike Falcon caused the error at the kernel level component of Microsoft Windows.&lt;/p&gt;
+&lt;img src=&quot;https://yjdx.netlify.app/yjdx/img/post4/crowdstrikefalcon.jpg&quot; width=&quot;100%&quot;&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;blockquote class=&amp;quot;twitter-tweet&amp;quot; data-dnt=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;p lang=&amp;quot;en&amp;quot; dir=&amp;quot;ltr&amp;quot;&amp;gt;CrowdStrike is actively working with customers impacted by a defect found in a single content update for Windows hosts. Mac and Linux hosts are not impacted. This is not a security incident or cyberattack. The issue has been identified, isolated and a fix has been deployed. We…&amp;lt;/p&amp;gt;&amp;amp;mdash; George Kurtz (@George_Kurtz) &amp;lt;a href=&amp;quot;https://twitter.com/George_Kurtz/status/1814235001745027317?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;July 19, 2024&amp;lt;/a&amp;gt;&amp;lt;/blockquote&amp;gt; &amp;lt;script async src=&amp;quot;https://platform.twitter.com/widgets.js&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;An immediate fix from IT Admins was to login into these computers via &#39;Safe Mode,&#39; and unroll the update from Crowdstrike. Later on, # Microsoft releases recovery tool to help repair Windows machines hit by CrowdStrike issue. A patch was later deployed to all Windows Computers, probably to fix the vulnerablilty and prevent the isssue from recurring.&lt;/p&gt;
+&lt;p&gt;This event was dubbed, &#39;The Modern Y2K, &#39; due to the panic and disruption that it caused on a global scale which replicated the expectations of the Y2K on New Year&#39;s Eve, 1999.
+The very fact that modern civilisation depends so heavily upon computers that a single bug in an antivirus program has enough to disrupt its normal course. This raised public concern and also gave to many memes.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;blockquote class=&amp;quot;twitter-tweet&amp;quot; data-dnt=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;p lang=&amp;quot;en&amp;quot; dir=&amp;quot;ltr&amp;quot;&amp;gt;CrowdStrike is actively working with customers impacted by a defect found in a single content update for Windows hosts. Mac and Linux hosts are not impacted. This is not a security incident or cyberattack. The issue has been identified, isolated and a fix has been deployed. We…&amp;lt;/p&amp;gt;&amp;amp;mdash; George Kurtz (@George_Kurtz) &amp;lt;a href=&amp;quot;https://twitter.com/George_Kurtz/status/1814235001745027317?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;July 19, 2024&amp;lt;/a&amp;gt;&amp;lt;/blockquote&amp;gt; &amp;lt;script async src=&amp;quot;https://platform.twitter.com/widgets.js&amp;quot; charset=&amp;quot;utf-8&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;On the contrary, Macintosh and Linux systems remained unaffected by the bug.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>A Dose of Stop Motion</title>
